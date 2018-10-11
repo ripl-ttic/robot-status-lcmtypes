@@ -1,4 +1,4 @@
-package ripl;
+package rslcm;
 
 struct comment_t
 {

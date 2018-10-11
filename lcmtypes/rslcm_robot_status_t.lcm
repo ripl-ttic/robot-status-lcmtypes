@@ -1,4 +1,4 @@
-package ripl;
+package rslcm;
 
 struct robot_status_t
 {
@@ -8,7 +8,7 @@ struct robot_status_t
     int64_t faults; 
     string comment;
 
-    // State constants. Must match that defined in ripl_robot_state_command_t
+    // State constants. Must match that defined in rslcm_robot_state_command_t
     const int8_t STATE_UNDEFINED = 0;
     const int8_t STATE_RUN = 1;
     const int8_t STATE_STANDBY = 2;
