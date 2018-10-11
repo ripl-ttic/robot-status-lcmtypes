@@ -1,0 +1,8 @@
+package rslcm;
+
+struct warning_t
+{
+    int64_t utime;
+
+    string warning; // text of warning
+}
